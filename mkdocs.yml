@@ -1,0 +1,24 @@
+site_name: Test Mkdocs
+
+# Repository
+repo_name: 'Thomas/mkdocs_test'
+repo_url: 'https://git.thomasbriffard.com/Thomas/mkdocs_test'
+
+theme:
+  name: 'material'
+  language: 'fr'
+  logo: 'images/GIREF_renverse.png'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://git.thomasbriffard.com/Thomas'
