@@ -15,8 +15,8 @@ nav:
 theme:
   name: 'material'
   language: 'fr'
-  feature:
-    tabs: true
+#  feature:
+#    tabs: true
 
 markdown_extensions:
   - admonition
