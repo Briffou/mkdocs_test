@@ -7,7 +7,6 @@ repo_url: 'https://github.com/Briffou/mkdocs_test'
 theme:
   name: 'material'
   language: 'fr'
-  logo: 'images/GIREF_renverse.png'
 
 markdown_extensions:
   - admonition
