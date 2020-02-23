@@ -4,14 +4,25 @@ site_name: Test Mkdocs
 repo_name: 'Briffou/mkdocs_test'
 repo_url: 'https://github.com/Briffou/mkdocs_test'
 
+nav:
+    - Accueil: index.md
+    - À propos: about.md
+    - Bac à sable: test.md
+    - Installation:
+         - Linux: installation/linux.md
+         - Windows: installation/windows.md
+
 theme:
   name: 'material'
   language: 'fr'
+  feature:
+    tabs: true
 
 markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
+  - pymdownx.inlinehilite
   - toc:
       permalink: true
 
