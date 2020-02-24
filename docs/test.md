@@ -11,3 +11,7 @@ def bubble_sort(items):
 ```
 
 # Test 
+
+Test latex $f(x)=2x$
+
+$$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$
