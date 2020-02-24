@@ -18,8 +18,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         
 ## Coucou
 
-    test
-    
-    ``` 
-    // Vive le C++ 
-    ```
+test
+``` c++
+// Vive le C++ 
+double t
+```
